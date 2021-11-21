@@ -26,7 +26,7 @@ const btn = document.querySelector('a')
                 }
 
                 else if(event.data[0] == 'Firedown') {
-                    btn.innerHTML = 'Finished!'
+                    btn.innerHTML = 'richtig?'
 
                     setTimeout(() => {
                         btn.style.backgroundColor = 'white'
