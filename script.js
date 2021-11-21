@@ -20,7 +20,7 @@ const btn = document.querySelector('a')
                 //btn.innerHTML = event.data[0];
                 
                 if(event.data[0] == 'Fireup' || event.data[0] == 'Flying') {
-                    btn.innerHTML = 'Uploading..'
+                    btn.innerHTML = 'Liebe..'
                     btn.style.backgroundColor = 'rgba(255,255,255,.5)'
                     document.querySelector('body').style.backgroundColor = '#8cbdff'
                 }
